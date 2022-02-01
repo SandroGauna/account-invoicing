@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_base_invoicing_mode
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model,name:account_invoice_base_invoicing_mode.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_queue_job__display_name
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_partner__display_name
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Exibir Nome"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields,help:account_invoice_base_invoicing_mode.field_res_partner__one_invoice_per_order
+#: model:ir.model.fields,help:account_invoice_base_invoicing_mode.field_res_users__one_invoice_per_order
+msgid "Do not group sale order into one invoice."
+msgstr "Não em grupo, peça de venda em uma fatura."
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_account_move__id
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_queue_job__id
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_partner__id
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_sale_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_partner__invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_users__invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_sale_order__invoicing_mode
+#, fuzzy
+msgid "Invoicing Mode"
+msgstr "Modo de Faturamento"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model,name:account_invoice_base_invoicing_mode.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_queue_job____last_update
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_partner____last_update
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_partner__one_invoice_per_order
+#: model:ir.model.fields,field_description:account_invoice_base_invoicing_mode.field_res_users__one_invoice_per_order
+msgid "One invoice per order"
+msgstr "Uma fatura por ordem"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model,name:account_invoice_base_invoicing_mode.model_queue_job
+#, fuzzy
+msgid "Queue Job"
+msgstr "Executar como trabalho de fila"
+
+#. module: account_invoice_base_invoicing_mode
+#: code:addons/account_invoice_base_invoicing_mode/models/queue_job.py:0
+#, fuzzy, python-format
+msgid "Related Record"
+msgstr "Cor do Registro"
+
+#. module: account_invoice_base_invoicing_mode
+#: code:addons/account_invoice_base_invoicing_mode/models/queue_job.py:0
+#, fuzzy, python-format
+msgid "Related Records"
+msgstr "Sem registros"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model,name:account_invoice_base_invoicing_mode.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venda"
+
+#. module: account_invoice_base_invoicing_mode
+#: model:ir.model.fields.selection,name:account_invoice_base_invoicing_mode.selection__res_partner__invoicing_mode__standard
+#, fuzzy
+msgid "Standard"
+msgstr "Código Padrão de Incoterm"
