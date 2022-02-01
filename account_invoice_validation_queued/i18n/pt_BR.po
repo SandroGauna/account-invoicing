@@ -1,0 +1,77 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_validation_queued
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_invoice_validation_queued
+#: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.view_queue_job_account_invoice_validation
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: account_invoice_validation_queued
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_validate_account_move__display_name
+msgid "Display Name"
+msgstr "Mostrar Nome"
+
+#. module: account_invoice_validation_queued
+#: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.validate_account_move_view
+#, fuzzy
+msgid "Enqueue Validation"
+msgstr "Validação de Enqueue"
+
+#. module: account_invoice_validation_queued
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_account_move__id
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_validate_account_move__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_invoice_validation_queued
+#: model:ir.model,name:account_invoice_validation_queued.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: account_invoice_validation_queued
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_validate_account_move____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: account_invoice_validation_queued
+#: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.view_queue_job_account_invoice_validation
+msgid "Requeue"
+msgstr "Requalificar"
+
+#. module: account_invoice_validation_queued
+#: model:ir.model,name:account_invoice_validation_queued.model_validate_account_move
+msgid "Validate Account Move"
+msgstr "Validar Movimento de Conta"
+
+#. module: account_invoice_validation_queued
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_account_bank_statement_line__validation_job_ids
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_account_move__validation_job_ids
+#: model:ir.model.fields,field_description:account_invoice_validation_queued.field_account_payment__validation_job_ids
+#: model_terms:ir.ui.view,arch_db:account_invoice_validation_queued.view_move_form
+#, fuzzy
+msgid "Validation Jobs"
+msgstr "Trabalhos de Validação"
+
+#. module: account_invoice_validation_queued
+#: code:addons/account_invoice_validation_queued/wizards/validate_account_move.py:0
+#, fuzzy, python-format
+msgid "You can't enqueue invoices with different dates."
+msgstr "Você não pode enqueir faturas com datas diferentes."
