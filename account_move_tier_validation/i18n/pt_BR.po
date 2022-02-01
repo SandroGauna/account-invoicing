@@ -1,0 +1,171 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_move_tier_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-info-circle\"/>This Invoice needs to be\n"
+"                        validated."
+msgstr ""
+"<i j=\"0/\">Esta Fatura precisa ser\n"
+"                        Validado.</i>"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+msgid "<i class=\"fa fa-thumbs-down\"/> Operation has been <b>rejected</b>."
+msgstr "<i class=\"fa fa-thumbs-down\"/>A operação foi <b>rejeitada.</b>."
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+msgid "<i class=\"fa fa-thumbs-up\"/> Operation has been <b>validated</b>!"
+msgstr "<i class=\"fa fa-thumbs-up\"/>A operação foi <b>validada!</b>!"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__can_review
+msgid "Can Review"
+msgstr "Pode Rever"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_tier_definition__display_name
+msgid "Display Name"
+msgstr "Mostrar Nome"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__has_comment
+#, fuzzy
+msgid "Has Comment"
+msgstr "Tem comentário"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__id
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_tier_definition__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+#, fuzzy
+msgid "Invoices Pending to Validate"
+msgstr "Faturas pendentes de validação"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+#, fuzzy
+msgid "Invoices validated and ready to be confirmed"
+msgstr "Faturas validadas e prontas para serem confirmadas"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+#, fuzzy
+msgid "Invoices where validation has not started"
+msgstr "Faturas onde a validação não foi iniciada"
+
+#. module: account_move_tier_validation
+#: model:ir.model,name:account_move_tier_validation.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_tier_definition____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+#, fuzzy
+msgid "My Accounts to review"
+msgstr "Minhas contas para revisar"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__need_validation
+#, fuzzy
+msgid "Need Validation"
+msgstr "Validação de Necessidade"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Needs my Review"
+msgstr "Precisa da minha Revisão"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__next_review
+#, fuzzy
+msgid "Next Review"
+msgstr "Próxima revisão"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+msgid "Reject"
+msgstr "Rejeitar"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__rejected
+msgid "Rejected"
+msgstr "Rejeitado"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+msgid "Request Validation"
+msgstr "Validação da Requisição"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+msgid "Restart Validation"
+msgstr "Reiniciar Validação"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__reviewer_ids
+msgid "Reviewers"
+msgstr "Revisores"
+
+#. module: account_move_tier_validation
+#: model:ir.model,name:account_move_tier_validation.model_tier_definition
+msgid "Tier Definition"
+msgstr "Definição de Nível"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_move_form
+msgid "Validate"
+msgstr "Validar"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__validated
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+msgid "Validated"
+msgstr "Validado"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+#, fuzzy
+msgid "Validation In Progress"
+msgstr "Validação em andamento"
+
+#. module: account_move_tier_validation
+#: model_terms:ir.ui.view,arch_db:account_move_tier_validation.view_account_invoice_filter
+#, fuzzy
+msgid "Validation Not Started"
+msgstr "Validação Não Iniciada"
+
+#. module: account_move_tier_validation
+#: model:ir.model.fields,field_description:account_move_tier_validation.field_account_move__review_ids
+msgid "Validations"
+msgstr "Validações"
