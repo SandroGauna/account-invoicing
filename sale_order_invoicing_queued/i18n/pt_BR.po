@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_invoicing_queued
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: sale_order_invoicing_queued
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_queue_job_sale_order_invoicing
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: sale_order_invoicing_queued
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_advance_payment_inv__display_name
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Mostrar Nome"
+
+#. module: sale_order_invoicing_queued
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_sale_advance_payment_inv
+#, fuzzy
+msgid "Enqueue Invoicing"
+msgstr "Faturamento enqueue"
+
+#. module: sale_order_invoicing_queued
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_advance_payment_inv__id
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_order_invoicing_queued
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_order__invoicing_job_ids
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_order_form
+#, fuzzy
+msgid "Invoicing Jobs"
+msgstr "Faturamento de empregos"
+
+#. module: sale_order_invoicing_queued
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_advance_payment_inv____last_update
+#: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: sale_order_invoicing_queued
+#: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_queue_job_sale_order_invoicing
+msgid "Requeue"
+msgstr "Requalificar"
+
+#. module: sale_order_invoicing_queued
+#: model:ir.model,name:sale_order_invoicing_queued.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr "Fatura de pagamento antecipado de vendas"
+
+#. module: sale_order_invoicing_queued
+#: model:ir.model,name:sale_order_invoicing_queued.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venda"
+
+#. module: sale_order_invoicing_queued
+#: code:addons/sale_order_invoicing_queued/wizards/sale_advance_payment_inv.py:0
+#, fuzzy, python-format
+msgid ""
+"There's already an enqueued job for invoicing the sales order %s. Please "
+"wait until it's finished or remove it from the selection."
+msgstr ""
+"Já há um trabalho para faturar a ordem de vendas %s. Por favor, aguarde "
+"até que esteja terminado ou remova-o da seleção."
