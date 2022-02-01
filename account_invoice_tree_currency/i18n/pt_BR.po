@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_tree_currency
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Amount Due"
+msgstr "Valor Devido"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+#, fuzzy
+msgid "Amount Due (Currency)"
+msgstr "Valor Devido (Moeda)"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+#, fuzzy
+msgid "Tax (Currency)"
+msgstr "Imposto (Moeda)"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+#, fuzzy
+msgid "Tax Excluded (Currency)"
+msgstr "Imposto Excluído (Moeda)"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Total"
+msgstr "Total"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+#, fuzzy
+msgid "Total (Currency)"
+msgstr "Total (Moeda)"
